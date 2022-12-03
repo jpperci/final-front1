@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+/* global styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #242E52;
+    cursor: pointer;
+}
+a:hover{
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.flex{
+    display: flex;
+    
+}
+input{
+    width: 250px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+/* buttons styles */
+.primary-button{
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    border-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+
+}
+.secondary-button{
+    width: 134px;
+    height: 44px;
+    background: white;
+    border-color: #8B48BF;
+    border-radius: 50px;
+    color: #8B48BF;
+    cursor: pointer;
+
+}
+.shadow-btn{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.primary-button:hover{
+    background: rgba(139, 72, 191, 0.7);;
+}
+.submit-button{
+    width: 63px;
+    height: 42px;
+    background: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.submit-button:hover{
+    color: #8B48BF;
+    background-color: white;
+    border-color: #8B48BF;
+}
+/* header styles */
+
+header {
+    height: 174px;
+    align-items: center;
+    justify-content: space-around;
+}
+.list-box li{
+    margin-right: 20px;
+       
+}
+/* front page styles */
+.front-page{
+    padding: 10vh 0px;
+    justify-content: center;
+    align-items: center;
+}
+.front-page img{
+    width: 540px;
+    height: 461px;
+}
+.front-content{
+    width: 540px;
+    height: 461px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 30px 0px 30px 50px;
+    text-align: right;
+}
+.front-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #232C50;
+    
+    
+    }
+/* differences between pros styles */
+.difference-container{
+    align-items: center;
+    justify-content: space-evenly;
+    background: #8B48BF;
+    color: white; 
+    padding: 6vh 100px; 
+
+}
+.content-container{
+    width: 450px;
+    height: 88px;
+}
+.content-container h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+}
+/* information cards section */
+.info-cards-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    
+ 
+}
+.info-card{
+    height: 162px;
+    width: 530px;
+    height: 162px;
+    margin: 20px 50px;
+}
+.info-card h3{
+    
+}
+.info-card h3 span{
+    background-color:#8B48BF;
+    width: 70px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-right: 23px;
+    color: #FAFAFA;
+
+}
+.info-card p{
+    padding: 20px 0px 0px 92px;
+    color: #B3B2B7;
+    width: 545px;
+    height: 104px;
+}
+    
+/* character cards section */
+.cards-section-container{
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 30px;
+}
+.character-cards-container{
+    padding: 100px 0px;
+}
+.character-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+    height: 220px;
+    width: 445px;
+    justify-content: space-around; 
+    padding: 0 15px 15px 15px;
+
+}
+.character-card img{
+    position: relative;
+    bottom: 35px;
+}
+.cards-section-container h2{
+    font-weight: 700;
+    font-size: 39px;
+    color: #242E53;
+
+}
+.character-card h3{
+    padding-bottom: 40px;
+    color: #3F4868;
+    font-weight: 700;
+}
+.character-card p{
+    text-align: center;
+    color: #B9B9C1;
+}
+/* best teams section */
+.best-teams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #8B48BF;
+    padding: 60px 0px;
+}
+.best-teams h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    width: 500px;
+}
+/* footer styles */
+.footer-container{
+    background: #1E1E26;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+}
+.social-networks{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-networks img{
+    max-width: 107px;
+}
+.social-links li{
+    padding-right: 15px;
+    padding-top: 50px;
+    
+}
+.links-footer li{
+    padding: 10px 0px;
+}
+.links-footer li a{
+    color: white;
+}
+.copyrights-forms-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copyrights-forms-container p{
+    color: #8C8C94;
+
+}
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
+    padding: 0px 50px;
+}
+/* responsive for mobile */
+.responsive-header img{
+    display: none;
+
+}
+@media (max-width: 700px) {
+    nav{
+        display: none;
+    }
+    .responsive-header button{
+        display: none;
+    }
+    .responsive-header img{
+        display:block;
+        width: 46px;
+        height: 42px;
+        
+    
+    }
+    .list-box{
+        display: none;
+    }
+    .front-page{
+        flex-direction: column;
+    }
+    .front-page img {
+        width: 80vw;
+        height: 35vh;
+    }
+    .front-content{
+        width: 83vw;
+        height: 57vh;
+        padding: 0px;
+    }
+    .difference-container{
+        flex-direction: column;
+        background: #3CDDF3;
+        padding: 0px;
+        height: 306px;
+
+    }
+    .difference-container p {
+        padding: 0px 15px 0px 10px;
+        
+    }
+    .difference-container h2{
+        padding: 0px 30px 0px 10px;
+    }
+    .info-cards-container{
+        background-color: #FFFFFF;
+    }
+    .info-card{
+        padding-left: 10vw;
+    }
+    .info-card p{
+        padding: 20px 0px 0px 0px;
+        width: 80vw;
+    }
+    .info-card h3 {
+    display: flex;
+    height: 43px;
+    width: 100vw;
+    background: rgba(139, 72, 191, 0.3);
+    align-items: center;
+    border-radius: 50px 0px 0px 50px;
+    }
+    .info-card span{
+        display: flex;
+        justify-content: center;
+        width: 70px;
+    }
+    .best-teams{
+        background: #3CDDF3;
+        flex-direction: column;
+        padding-bottom: 50px;
+
+    }
+    .secondary-button{
+        background: #232C50;
+        color: white;
+        border-color: #232C50;
+
+    }
+    .best-teams h2 {
+        width: 60vw;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .social-networks{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .social-networks img{
+        padding-top: 50px;
+    }
+    .social-links li{
+        padding:0px 30px ;
+
+    }
+    .copyrights-forms-container p{
+        position: relative;
+        top: 400px;
+    }
+    .copyrights-forms-container{
+        padding-bottom: 50px;
+    }
+    
+}
